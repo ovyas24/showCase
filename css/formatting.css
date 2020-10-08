@@ -1,0 +1,46 @@
+.text-white{
+    color: white;
+}
+
+.text-danger{
+    color: red;
+}
+
+.text-ready{
+    color: green;
+}
+
+.text-info{
+    color: rgb(60, 138, 138);
+}
+
+.text-primary{
+    color: #344955;;
+}
+
+.text-second{
+    color: #f9aa33;
+}
+
+.bg-prime{
+    background:#344955;
+}
+
+.bg-prime-dark{
+    background: #232f34;
+}
+
+.bg-prime-light{
+    background-color: #4a6572;
+}
+
+.bg-second{
+    background-color: #f9aa33;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}

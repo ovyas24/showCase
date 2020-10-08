@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    min-height: 100vh;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    padding: 5px;
+    color: black;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.card-title{
+    font-weight: bolder;
+}
+
+.form-group{
+    margin:auto;
+}
+
+.form-control{
+    display:block;
+    width:100%;
+    height:calc(1.5em + .75rem + 2px);
+    padding:.375rem .75rem;
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#495057;
+    background-color:#fff;
+    background-clip:padding-box;
+    border:1px solid #ced4da;
+    border-radius:.25rem;
+    transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+.form-signin {
+width: 100%;
+max-width: 330px;
+padding: 15px;
+margin: auto;
+}
+.form-signin .checkbox {
+font-weight: 400;
+}
+.form-signin .form-control {
+position: relative;
+box-sizing: border-box;
+height: auto;
+padding: 10px;
+font-size: 16px;
+}
+.form-signin .form-control:focus {
+z-index: 2;
+}
+.form-signin input[type="text"] {
+margin-bottom: -1px;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+margin-bottom: 10px;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.btn{
+    padding: 2px;
+    margin: 1px;
+    text-align: center;
+}
+
+button .btn:hover{
+    box-shadow: 0px 0px 10px #f9aa33;
+}
+
+.btn-prime{
+    border: none;
+    border-radius: 5px;
+    min-height: 30px;
+    min-width: 70px;
+}
+
+.rounded{
+    border-radius: 5px;
+}
+.norounds{
+    border-radius: 0;
+}
+
+.shadow-prime{
+    box-shadow: 0px 0px 10px #232f34;
+}
+.nav-link{
+    font-size: 28px;
+}
+
+ul{
+    list-style: none;
+    float: left;
+    align-self: inherit;
+}
+
+nav{
+    display: inline-block;
+}
+.nav-links li{
+    float: left;
+}
+.nav-link a:hover{
+    text-decoration: none;
+}
+
+li.align-right{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+form{
+    min-width: 30%;
+}
+
+form div a:hover{
+    text-decoration: underline;
+}
+
+form .brand a:hover{
+    text-decoration: none;
+}
+
+.nav{
+    height: 60px;
+    width: 100%;
+}
+
+.no-gutters{
+    padding: 0;
+    margin: 0;
+}
+
+.brand{
+    height: 100%;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 10px;
+    color: White;
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background: rgb(15, 27, 49);
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:1em;
+    grid-auto-rows: 100%;
+}
+
+footer div ul li{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+footer div ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer div ul li a:hover{
+    text-decoration: underline;
+}
+
+footer div{
+    text-align: right;
+    padding: 1em;
+}
+
+footer div:nth-child(even) ul{
+    float: right;
+}
+footer div:nth-child(even) ul li a{
+    float: left;
+}
+footer div:nth-child(even) ul li a i{
+    margin: 15px;
+    font-size: 30px;
+}
+
+footer div:nth-child(odd){
+    text-align: left;
+}
+
+.dishes{
+    justify-content: center;
+    margin-top:120px;
+    padding: 1em;
+}
+
+.dishes div.heading{
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-family: 'Sansita Swashed', cursive;
+    margin-bottom: 10px;
+}
+
+div.meals{
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:1em;
+    transition: 0.5s;
+}
+.dishes div.cards button{
+    padding: 10px;
+    width: 20%;
+    border: 2px solid black;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.dishes div.cards button:hover{
+    background: black;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 5px black;
+    transition: 0.5s;
+}
